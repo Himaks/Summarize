@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.js"></script>
+</head>
+<body>
+
+<input type="text" ng-model="number" placeholder="Введите число"><br>
+<input type="text" ng-model="number2" placeholder="Введите число" ><br>
+<input type="text" value="Сумма: {{number*1 + number2*1}}"><br>
+</body>
+</html>
